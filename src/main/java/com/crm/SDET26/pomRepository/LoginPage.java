@@ -1,4 +1,4 @@
-package com.crm.SDET26.pomRepository;
+ package com.crm.SDET26.pomRepository;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -72,28 +72,4 @@ public class LoginPage extends WebDriverUtility{
 		loginBtn.click();
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }

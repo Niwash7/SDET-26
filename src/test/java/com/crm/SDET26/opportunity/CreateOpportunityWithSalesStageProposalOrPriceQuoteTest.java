@@ -9,10 +9,10 @@ import com.crm.SDET26.genericUtility.BaseClass;
 import com.crm.SDET26.pomRepository.CreateNewOpportunityPage;
 import com.crm.SDET26.pomRepository.CreateNewOrganizationPage;
 import com.crm.SDET26.pomRepository.HomePage;
-import com.crm.SDET26.pomRepository.OpportunityPage;
 import com.crm.SDET26.pomRepository.OpportunityInformationPage;
-import com.crm.SDET26.pomRepository.OrganizationPage;
+import com.crm.SDET26.pomRepository.OpportunityPage;
 import com.crm.SDET26.pomRepository.OrganizationInformationPage;
+import com.crm.SDET26.pomRepository.OrganizationPage;
 
 
 @Listeners(com.crm.SDET26.genericUtility.ListenerImpClass.class)

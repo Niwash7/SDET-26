@@ -10,7 +10,6 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
 
 import com.crm.SDET26.pomRepository.HomePage;
 import com.crm.SDET26.pomRepository.LoginPage;
@@ -21,7 +20,7 @@ public class BaseClass {
 	public ExcelUtility eLib = new ExcelUtility();
 	public JavaUtility jLib = new JavaUtility();
 	public WebDriverUtility wLib = new WebDriverUtility();
-	public  static WebDriver sDriver;
+	public static WebDriver sDriver;
 	
 	@BeforeSuite(alwaysRun = true)
 	public void dataBaseConnection() {
